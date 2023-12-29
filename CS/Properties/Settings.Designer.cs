@@ -9,111 +9,111 @@
 //------------------------------------------------------------------------------
 
 namespace Favorites.Properties {
-    
-    
-    [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "14.0.0.0")]
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-        
-        private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
-        
-        public static Settings Default {
-            get {
-                return defaultInstance;
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Anthony Duguid")]
-        public string App_Author {
-            get {
-                return ((string)(this["App_Author"]));
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("https://github.com/Office-projects/ExcelFavorites/blob/master/README.md")]
-        public string App_PathReadMe {
-            get {
-                return ((string)(this["App_PathReadMe"]));
-            }
-            set {
-                this["App_PathReadMe"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("https://github.com/Office-projects/ExcelFavorites/issues/new")]
-        public string App_PathReportIssue {
-            get {
-                return ((string)(this["App_PathReportIssue"]));
-            }
-            set {
-                this["App_PathReportIssue"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("07/31/2017 13:05:00")]
-        public global::System.DateTime App_ReleaseDate {
-            get {
-                return ((global::System.DateTime)(this["App_ReleaseDate"]));
-            }
-            set {
-                this["App_ReleaseDate"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string App_PathLocalData {
-            get {
-                return ((string)(this["App_PathLocalData"]));
-            }
-            set {
-                this["App_PathLocalData"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string App_PathDeployData {
-            get {
-                return ((string)(this["App_PathDeployData"]));
-            }
-            set {
-                this["App_PathDeployData"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Temp")]
-        public string Option_PathFileListing {
-            get {
-                return ((string)(this["Option_PathFileListing"]));
-            }
-            set {
-                this["Option_PathFileListing"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("True")]
-        public bool Option_PathFileListingSelect {
-            get {
-                return ((bool)(this["Option_PathFileListingSelect"]));
-            }
-            set {
-                this["Option_PathFileListingSelect"] = value;
-            }
+
+
+[global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "14.0.0.0")]
+internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+
+    private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
+
+    public static Settings Default {
+        get {
+            return defaultInstance;
         }
     }
+
+    [global::System.Configuration.ApplicationScopedSettingAttribute()]
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+    [global::System.Configuration.DefaultSettingValueAttribute("Anthony Duguid")]
+    public string App_Author {
+        get {
+            return ((string)(this["App_Author"]));
+        }
+    }
+
+    [global::System.Configuration.UserScopedSettingAttribute()]
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+    [global::System.Configuration.DefaultSettingValueAttribute("https://github.com/Office-projects/ExcelFavorites/blob/master/README.md")]
+    public string App_PathReadMe {
+        get {
+            return ((string)(this["App_PathReadMe"]));
+        }
+        set {
+            this["App_PathReadMe"] = value;
+        }
+    }
+
+    [global::System.Configuration.UserScopedSettingAttribute()]
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+    [global::System.Configuration.DefaultSettingValueAttribute("https://github.com/Office-projects/ExcelFavorites/issues/new")]
+    public string App_PathReportIssue {
+        get {
+            return ((string)(this["App_PathReportIssue"]));
+        }
+        set {
+            this["App_PathReportIssue"] = value;
+        }
+    }
+
+    [global::System.Configuration.UserScopedSettingAttribute()]
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+    [global::System.Configuration.DefaultSettingValueAttribute("07/31/2017 13:05:00")]
+    public global::System.DateTime App_ReleaseDate {
+        get {
+            return ((global::System.DateTime)(this["App_ReleaseDate"]));
+        }
+        set {
+            this["App_ReleaseDate"] = value;
+        }
+    }
+
+    [global::System.Configuration.UserScopedSettingAttribute()]
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+    [global::System.Configuration.DefaultSettingValueAttribute("")]
+    public string App_PathLocalData {
+        get {
+            return ((string)(this["App_PathLocalData"]));
+        }
+        set {
+            this["App_PathLocalData"] = value;
+        }
+    }
+
+    [global::System.Configuration.UserScopedSettingAttribute()]
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+    [global::System.Configuration.DefaultSettingValueAttribute("")]
+    public string App_PathDeployData {
+        get {
+            return ((string)(this["App_PathDeployData"]));
+        }
+        set {
+            this["App_PathDeployData"] = value;
+        }
+    }
+
+    [global::System.Configuration.UserScopedSettingAttribute()]
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+    [global::System.Configuration.DefaultSettingValueAttribute("C:\\Temp")]
+    public string Option_PathFileListing {
+        get {
+            return ((string)(this["Option_PathFileListing"]));
+        }
+        set {
+            this["Option_PathFileListing"] = value;
+        }
+    }
+
+    [global::System.Configuration.UserScopedSettingAttribute()]
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+    [global::System.Configuration.DefaultSettingValueAttribute("True")]
+    public bool Option_PathFileListingSelect {
+        get {
+            return ((bool)(this["Option_PathFileListingSelect"]));
+        }
+        set {
+            this["Option_PathFileListingSelect"] = value;
+        }
+    }
+}
 }
