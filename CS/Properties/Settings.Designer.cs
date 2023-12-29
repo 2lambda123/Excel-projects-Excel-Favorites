@@ -34,7 +34,7 @@ namespace Favorites.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("https://github.com/aduguid/MicrosoftExcelFavorites/blob/master/README.md")]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://github.com/Office-projects/ExcelFavorites/blob/master/README.md")]
         public string App_PathReadMe {
             get {
                 return ((string)(this["App_PathReadMe"]));
@@ -46,7 +46,7 @@ namespace Favorites.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("https://github.com/aduguid/MicrosoftExcelFavorites/issues/new")]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://github.com/Office-projects/ExcelFavorites/issues/new")]
         public string App_PathReportIssue {
             get {
                 return ((string)(this["App_PathReportIssue"]));
@@ -89,6 +89,30 @@ namespace Favorites.Properties {
             }
             set {
                 this["App_PathDeployData"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Temp")]
+        public string Option_PathFileListing {
+            get {
+                return ((string)(this["Option_PathFileListing"]));
+            }
+            set {
+                this["Option_PathFileListing"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool Option_PathFileListingSelect {
+            get {
+                return ((bool)(this["Option_PathFileListingSelect"]));
+            }
+            set {
+                this["Option_PathFileListingSelect"] = value;
             }
         }
     }

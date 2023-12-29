@@ -1,17 +1,20 @@
-<img align="left" src="Images/ReadMe/App.png" width="64px" >
 
-# Microsoft Excel Favorites <span class="Application_Version">3.0.0.0</span> 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE "MIT License Copyright © 2017 Anthony Duguid")
-![current_build Office_2013](https://img.shields.io/badge/current_build-Office_2013-red.svg)
+<img align="left" src="Images/ReadMe/header.png">
 
-This is an Excel Add-In written in Visual Studio Community 2017 C#/VB.NET and VBA. :new: I'm currently working on the Web Add-In in JavaScript. It gives the user a custom ribbon. Key distinctive attributes include dedicated buttons for [copying visible cells](https://support.office.com/en-us/article/Copy-visible-cells-only-6e3a1f01-2884-4332-b262-8b814412847e), [Excel's camera feature](https://answers.microsoft.com/en-us/msoffice/forum/msoffice_excel-mso_winother/how-to-use-camera-function-in-microsoft-excel/44a97349-f694-4bd3-a5ca-e4097f6e9437?auth=1), [Snipping Tool](https://support.microsoft.com/en-au/help/4027213/windows-open-snipping-tool-and-take-a-screenshot), [Problem Steps Recorder (PSR)](https://support.microsoft.com/en-au/help/22878/windows-10-record-steps) and [Windows Calculator](https://en.wikipedia.org/wiki/Windows_Calculator).
-<!---
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE "MIT License Copyright © 2017 Anthony Duguid")
-[![star this repo](http://githubbadges.com/star.svg?user=aduguid&repo=MicrosoftExcelFavorites&style=flat&color=fff&background=007ec6)](http://github.com/aduguid/MicrosoftExcelFavorites)
-[![fork this repo](http://githubbadges.com/fork.svg?user=aduguid&repo=MicrosoftExcelFavorites&style=flat&color=fff&background=007ec6)](http://github.com/aduguid/MicrosoftExcelFavorites/fork)
---->
+This Add-In gives the user a custom favorites ribbon. Key distinctive attributes include dedicated buttons for changing the visibility/sort order of sheets, [copying visible cells](https://support.office.com/en-us/article/Copy-visible-cells-only-6e3a1f01-2884-4332-b262-8b814412847e), [Excel's camera feature](https://answers.microsoft.com/en-us/msoffice/forum/msoffice_excel-mso_winother/how-to-use-camera-function-in-microsoft-excel/44a97349-f694-4bd3-a5ca-e4097f6e9437?auth=1), [Snipping Tool](https://support.microsoft.com/en-au/help/4027213/windows-open-snipping-tool-and-take-a-screenshot), [Problem Steps Recorder (PSR)](https://support.microsoft.com/en-au/help/22878/windows-10-record-steps) and [Windows Calculator](https://en.wikipedia.org/wiki/Windows_Calculator). It is written in 3 different versions as a VSTO Add-In in C# and VB.NET as well as a VBA Add-In. The most complete version is C#. 
+
+:new: I'm currently working on the Web Add-In in JavaScript.
+
+<!--[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/AnthonyDuguid/1.00)-->
+[![Join the chat at https://gitter.im/MicrosoftExcelFavorites/Lobby](https://badges.gitter.im/MicrosoftExcelFavorites/Lobby.svg)](https://gitter.im/MicrosoftExcelFavorites/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE "MIT License Copyright © Anthony Duguid")
+[![Latest Release](https://img.shields.io/github/release/Excel-projects/Excel-Favorites.svg?label=latest%20release)](https://github.com/Excel-projects/Excel-Favorites/releases)
+[![Github commits (since latest release)](https://img.shields.io/github/commits-since/Excel-projects/Excel-Favorites/latest.svg)](https://github.com/Excel-projects/Excel-Favorites/commits/master)
+[![GitHub issues](https://img.shields.io/github/issues/Excel-projects/Excel-Favorites.svg)](https://github.com/Excel-projects/Excel-Favorites/issues)
+<!--[![Github All Releases](https://img.shields.io/github/downloads/Excel-projects/Excel-Favorites/total.svg)](https://github.com/Excel-projects/Excel-Favorites/releases)-->
+
 <h1 align="left">
-  <img src="Images/ReadMe/vsto.excel.favorites3.png" alt="Ribbon" />
+  <img src="Images/ReadMe/excel.ribbon.gif" />
 </h1>
 
 <br>
@@ -26,48 +29,10 @@ This is an Excel Add-In written in Visual Studio Community 2017 C#/VB.NET and VB
     - <a href="#print-group">Print</a>   
     - <a href="#program-group">Program</a>  
     - <a href="#evaluate-group">Evaluate</a>  
-    - <a href="#annotation-group">Annotate</a>  
     - <a href="#options-group">Options</a>  
+    - <a href="#annotation-group">Annotate</a>  
     - <a href="#help">Help</a>
     - <a href="#about">About</a>
-
-<!---
-         - <a href="#save">Save</a> 
-         - <a href="#save-as">Save As</a> 
-    - <a href="#edit">Edit</a>
-         - <a href="#undo">Undo</a> 
-         - <a href="#copy">Copy</a> 
-         - <a href="#cut">Cut</a> 
-         - <a href="#paste">Paste</a> 
-         - <a href="#spelling">Spelling</a> 
-    - <a href="#print-group">Print</a>   
-         - <a href="#setup">Setup</a> 
-         - <a href="#preview">Preview</a> 
-         - <a href="#print">Print</a> 
-    - <a href="#program-group">Program</a>  
-         - <a href="#new">New</a> 
-         - <a href="#open">Open</a> 
-         - <a href="#close">Close</a> 
-         - <a href="#properties">Properties</a> 
-         - <a href="#options">Options</a> 
-         - <a href="#exit">Exit</a> 
-    - <a href="#evaluate-group">Evaluate</a>  
-         - <a href="#calculator">Windows Calculator</a> 
-         - <a href="#calculate-now">Calculate Now</a> 
-    - <a href="#annotation-group">Annotate</a>  
-         - <a href="#camera">Excel Camera</a> 
-         - <a href="#snip">Snipping Tool</a> 
-         - <a href="#psr">Problem Step Recorder</a> 
-    - <a href="#options-group">Options</a>  
-         - <a href="#settings">Add-In Settings</a> 
-    - <a href="#help">Help</a>
-        - <a href="#how-to">How To...</a>  
-        - <a href="#report-issue">Report Issue</a>  
-    - <a href="#about">About</a>
-        - <a href="#description">Add-in Name</a>
-        - <a href="#install-date">Release Date</a>  
-        - <a href="#copyright">Copyright</a>  
---->
 
 <br>
 
@@ -77,17 +42,15 @@ Instructions for installation of VBA and VSTO versions.
 
 ### VBA
 How to install the VBA version
-1. Download the VBA Add-In file [![download VBA](https://img.shields.io/badge/download-VBA-brightgreen.svg)](https://github.com/aduguid/MicrosoftExcelFavorites/raw/master/VBA/Favorites.xlam?raw=true "Download the VBA Add-In").
+1. Download the VBA Add-In file [![download VBA](https://img.shields.io/badge/download-VBA-brightgreen.svg)](https://github.com/Excel-projects/Excel-Favorites/raw/master/VBA/Favorites.xlam?raw=true "Download the VBA Add-In").
 2. Copy the file to the XLSTART folder on your computer.  ```%AppData%\Microsoft\Excel\XLSTART\``` 
 3. Close all open instances of Excel and then launch Excel. The new ribbon should appear.
 
 ### VSTO
 How to install the VSTO version
-1. Download AnthonyDuguid.pfx And Install At Root Level [![download Key](https://img.shields.io/badge/download-Key-brightgreen.svg)](https://github.com/aduguid/MicrosoftExcelFavorites/VB/blob/master/AnthonyDuguid.pfx?raw=true "Download AnthonyDuguid.pfx And Install At Root Level For VSTO")
-2. Download and run the setup.exe file. ```TODO: publish .NET to GitHub```
-<!---
-[![download VSTO](https://img.shields.io/badge/download-VSTO-brightgreen.svg)](https://github.com/aduguid/MicrosoftExcelFavorites/VB/blob/master/publish/setup.exe?raw=true "Download Setup.exe Install File")
---->
+1. Download AnthonyDuguid.pfx And Install At Root Level [![download Key](https://img.shields.io/badge/download-Key-brightgreen.svg)](https://github.com/Excel-projects/Excel-Favorites/blob/master/CS/AnthonyDuguid.pfx?raw=true "Download AnthonyDuguid.pfx And Install At Root Level For VSTO")
+2. Download and run the setup.exe file. 
+[![download VSTO](https://img.shields.io/badge/download-VSTO-brightgreen.svg)](https://github.com/Excel-projects/Excel-Favorites/blob/master/CS/publish/setup.exe?raw=true "Download Setup.exe Install File")
 
 <br>
 
@@ -95,8 +58,8 @@ How to install the VSTO version
 ## Dependencies
 |Software                                   |Dependency                 |Project                    |
 |:------------------------------------------|:--------------------------|:--------------------------|
-|[Microsoft Visual Studio Community 2017](https://www.visualstudio.com/vs/whatsnew/)|Solution|VSTO|
-|[Microsoft Office Developer Tools](https://blogs.msdn.microsoft.com/visualstudio/2015/11/23/latest-microsoft-office-developer-tools-for-visual-studio-2015/)|Solution|VSTO|
+|[Microsoft Visual Studio Community](https://www.visualstudio.com/vs/whatsnew/)|Solution|VSTO|
+|[Microsoft Office Developer Tools](https://visualstudio.microsoft.com/vs/features/office-tools/)|Solution|VSTO|
 |[Microsoft Excel 2010 (or later)](https://www.microsoft.com/en-au/software-download/office)|Project|VBA, VSTO|
 |[Visual Basic for Applications](https://msdn.microsoft.com/en-us/vba/vba-language-reference)|Code|VBA|
 |[Extensible Markup Language (XML)](https://www.rondebruin.nl/win/s2/win001.htm)|Ribbon|VBA, VSTO|
@@ -279,9 +242,6 @@ VBA
     ```
 <a id="user-content-help" class="anchor" href="#help" aria-hidden="true"> </a>
 ###	Help (Group)
-<h1 align="left">
-  <img src="Images/ReadMe/ribbon.group.help.png" alt="help" />
-</h1>
 
 <a id="user-content-how-to" class="anchor" href="#how-to" aria-hidden="true"> </a>
 ####	How To... (Button)
